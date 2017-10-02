@@ -90,7 +90,7 @@ Properties:
 - SQL oriented server:  
 Create a single object with a function named `executeSql` that receives two parameters: `(config, sqlString)`. Where `config` is the config object you gave to *peanutseed* and `sqlString` is the entire content of a single file peanut found.
 
-- Collection oriented server: 
+- Collection oriented server:  
 Create a single object with a function named `insertDataOnCollection` that receives three parameters: `(config, collectionName, data)`. Where `config` is the config object you gave to *peanutseed*, `collectionName` is the name of the collection peanut found and data is the array of objects for that collection.
 
 ## Seed pattern for use with bundled mongo provider  
